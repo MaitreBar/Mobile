@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">maître app</string>
+
+    <string name="titulos">
+<!--        // adicionar aqui todos os titulos principais-->
+    </string>
+
+    <string name="subtitulos">
+<!--        //adicionar aqui todos os conteudos que forem subtitulos-->
+    </string>
+
+    <string name="textos">
+<!--        // adicionar aqui todos os textos do app-->
+    </string>
+
+    <string name="botoes">
+<!--        // adicionar aqui todos os textos usados em botões-->
+    </string>
+
+    <string name="inputs">
+<!--       // adicionar aqui todos os textos que forem placeholders de inputs-->
+    </string>
+
+
+</resources>

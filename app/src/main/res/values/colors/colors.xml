@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    //paleta principal de cores-->
+    <color name="azulClaro">#6FBFB7</color>
+    <color name="verdeEscuro">#587370</color>
+    <color name="begeClaro">#BBAAA1</color>
+    <color name="begeEscuro">#BB937C</color>
+    <color name="marrom">#6E5D54</color>
+    <color name="preto">#000000</color>
+    <color name="branco">#FFFFFF</color>
+
+    <!--    //paleta utilizada no figma (colocar aqui as cores diferentes usadas no figma)-->
+</resources>
