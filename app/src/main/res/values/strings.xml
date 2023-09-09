@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Maitre App</string>
-
     <string name="titulos">
         <!--        // adicionar aqui todos os titulos principais-->
     </string>
@@ -20,6 +19,5 @@
     <string name="inputs">
         <!--       // adicionar aqui todos os textos que forem placeholders de inputs-->
     </string>
-
 
 </resources>
