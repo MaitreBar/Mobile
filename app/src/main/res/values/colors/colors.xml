@@ -8,6 +8,7 @@
     <color name="marrom">#6E5D54</color>
     <color name="preto">#000000</color>
     <color name="branco">#FFFFFF</color>
+    <color name="ALEATORIOAPAGARDPS">#000FFF</color>
 
     <!--    //paleta utilizada no figma (colocar aqui as cores diferentes usadas no figma)-->
 </resources>
