@@ -16,32 +16,14 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:backgroundTint="#fff"
-            android:minWidth="0dp"
-            android:minHeight="0dp"
-            android:paddingHorizontal="0dp"
-            android:paddingVertical="0dp"
-            android:textStyle="bold"
-            android:text="←"
-            android:textColor="#000"
-            android:textSize="60sp" />
+            style="@style/backButton"/>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:textSize="18sp"
-            android:textStyle="bold"
+            style="@style/reservaTitulo"
             android:text="@string/selecioneData" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:textStyle="bold"
+            style="@style/reservaText"
             android:text="Dia:" />
 
         <LinearLayout
@@ -76,10 +58,7 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:textStyle="bold"
+            style="@style/reservaText"
             android:text="Horário: " />
 
         <LinearLayout
@@ -142,14 +121,12 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:textStyle="bold"
+            style="@style/reservaText"
             android:text="Quantidade de reservas:" />
 
         <EditText
-            style="@style/editTextReservas" />
+            style="@style/editTextReservas"
+            android:background="@drawable/rounded_edittext" />
 
         <Button
             android:layout_height="wrap_content"
