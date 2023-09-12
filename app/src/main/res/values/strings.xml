@@ -9,6 +9,10 @@
     <string name="CriarConta">
         Criar Conta
     </string>
+    <string name="Estabelecimentos">Estabelecimentos</string>
+    <string name="EstabelecimentosMais">Estabelecimentos mais visitados</string>
+    <string name="CategoriaPetisco">Categoria: Petiscos</string>
+    <string name="AlterarPerfil">Alterar perfil</string>
     <!--    _____________________________________________________-->
     <string name="subtitulos">
         <!--        //adicionar aqui todos os conteudos que forem subtitulos-->
@@ -30,6 +34,13 @@
     <string name="textos">
         <!--        // adicionar aqui todos os textos do app-->
     </string>
+    <string name="UserName">Liz Smith</string>
+    <string name="EmailUsuario">liz@gmail.com</string>
+    <string name="BoasVindas">Bem-vindo (a)</string>
+    <string name="Telefone">(00) 0 0000-0000</string>
+    <string name="UmCifrao">$</string>
+    <string name="DoisCifroes">$$</string>
+    <string name="TresCifroes">$$$</string>
     <!--    _____________________________________________________-->
 
     <string name="botoes">
@@ -42,6 +53,8 @@
     <string name="botao_login"> Login
 
     </string>
+    <string name="Atualizar">Atualizar</string>
+    <string name="Avancar">Avançar</string>
     <!--    _____________________________________________________-->
 
 
@@ -50,7 +63,17 @@
 
     <string name="placeholderEmail">usuario@email.com</string>
     <string name="placeholderSenha">••••••••••••••••••</string>
+    <string name="Pesquisar">Pesquisar</string>
     <!--    _____________________________________________________-->
     <string name="selecioneData">Selecione a Data &amp; Horário</string>
     <string name="quantidadeReservas">Quantidade de reservas:</string>
+    <string name="Nome">Nome:</string>
+    <string name="DataNascimento">Data de nascimento:</string>
+    <string name="RG">RG:</string>
+    <string name="CPF">CPF:</string>
+    <string name="Celular">Celular:</string>
+    <string name="Email">E-mail:</string>
+    <string name="SenhaAntiga">Senha antiga:</string>
+    <string name="SenhaNova">Nova senha:</string>
+    <string name="ConfimarSenhaNova">Confirmar senha:</string>
 </resources>

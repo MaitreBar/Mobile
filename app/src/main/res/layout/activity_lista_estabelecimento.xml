@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaEstabelecimento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="20dp">
+            <TextView
+                style="@style/Descricao"
+                android:text="@string/BoasVindas"/>
+            <TextView
+                style="@style/PadraoTitulo"
+                android:text="@string/UserName"
+                android:gravity="left"
+                android:layout_marginVertical="5dp"
+                android:drawableRight="@drawable/ic_arrow_back_black"/>
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Pesquisar"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_search_grey"
+            android:drawableRight="@drawable/ic_filter_grey"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            style="@style/PadraoTitulo"
+            android:text="@string/Estabelecimentos"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:rowCount="3"
+            android:columnCount="2"
+            android:layout_margin="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@mipmap/bar"
+                        android:clickable="true" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Beerwings"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginVertical="10dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="@string/TresCifroes"
+                            android:gravity="center_vertical"
+                            android:layout_marginHorizontal="10dp"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:drawableRight="@drawable/ic_star"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="4.8"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@mipmap/bar"
+                        android:clickable="true" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Madureira"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginVertical="10dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="@string/DoisCifroes"
+                            android:gravity="center_vertical"
+                            android:layout_marginHorizontal="10dp"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:drawableRight="@drawable/ic_star"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="3.9"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@mipmap/bar"
+                        android:clickable="true" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Go Coffee"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginVertical="10dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="@string/TresCifroes"
+                            android:gravity="center_vertical"
+                            android:layout_marginHorizontal="10dp"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:drawableRight="@drawable/ic_star"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="4.5"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@mipmap/bar"
+                        android:clickable="true" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Augusta Bar"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginVertical="10dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="@string/DoisCifroes"
+                            android:gravity="center_vertical"
+                            android:layout_marginHorizontal="10dp"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:drawableRight="@drawable/ic_star"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="5.0"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@mipmap/bar"
+                        android:clickable="true" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Botequim"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginVertical="10dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="@string/TresCifroes"
+                            android:gravity="center_vertical"
+                            android:layout_marginHorizontal="10dp"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:drawableRight="@drawable/ic_star"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="4.8"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:src="@mipmap/bar"
+                        android:clickable="true" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Parisiense"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_marginVertical="10dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="@string/DoisCifroes"
+                            android:gravity="center_vertical"
+                            android:layout_marginHorizontal="10dp"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:drawableRight="@drawable/ic_star"
+                            android:gravity="center_vertical"
+                            />
+                        <TextView
+                            style="@style/Descricao"
+                            android:text="4.8"
+                            android:gravity="center_vertical"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Avancar"
+            android:backgroundTint="@color/marrom"
+            android:layout_marginVertical="10dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

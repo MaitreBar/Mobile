@@ -5,5 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-  
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/lista_estabelecimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="listaEstabelecimento"></Button>
+
+        <Button
+            android:id="@+id/lista_estabelecimento_mais_visitados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="listaEstabelecimentoMaisVisitados"></Button>
+
+        <Button
+            android:id="@+id/categorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categorias"></Button>
+        <Button
+            android:id="@+id/perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perfil"></Button>
+        <Button
+            android:id="@+id/alterar_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Att Perfil"></Button>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
