@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/branco"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:background="@color/begeClaro">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/OldStandardTTBold"
+                android:text="@string/Entrar"
+                android:textColor="@color/branco"
+                android:textSize="33sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/QuicksandBold"
+                android:text="@string/NãoPossuiConta"
+                android:textColor="@color/branco"
+                android:textSize="14sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="82dp"
+                android:clickable="true"
+                android:fontFamily="@font/QuicksandBold"
+                android:text="@string/Cadastrese"
+                android:textColor="@color/marrom"
+                android:textSize="14sp"></TextView>
+            <ImageButton
+                style="@style/botaoSeta"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="-100dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="180dp">
+             <TextView
+                 android:layout_marginLeft="60dp"
+                 android:layout_width="50dp"
+                 android:layout_height="20dp"
+                 android:hint="Email"
+                 android:textSize="10sp"
+                 android:fontFamily="@font/QuicksandSemiBold"
+                 android:textColor="#1C1C28"
+                 android:layout_marginTop="80dp"
+                 >
+             </TextView>
+            <EditText
+                style="@style/EmailInput"
+                android:layout_width="280dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="55dp"
+                android:background="@drawable/rounded_edittext"
+                android:hint="@string/placeholderEmail"
+                android:fontFamily="@font/QuicksandMedium"
+                android:paddingLeft="10dp" />
+            <TextView
+                android:layout_marginLeft="60dp"
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:hint="Senha"
+                android:textSize="10sp"
+                android:fontFamily="@font/QuicksandSemiBold"
+                android:textColor="#1C1C28"
+                >
+            </TextView>
+
+            <EditText
+                style="@style/EmailInput"
+                android:layout_width="280dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="55dp"
+                android:background="@drawable/rounded_edittext"
+                android:inputType="textPassword"
+                android:hint="@string/placeholderSenha"
+                android:paddingLeft="10dp" />
+
+            <Button
+                style="@style/botaoEntar"
+                android:text="Entrar"
+                android:layout_marginTop="30dp"
+                />
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/Divider"/>
+            <TextView
+                android:layout_marginTop="-35dp"
+                android:layout_marginLeft="150dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/QuicksandSemiBold"
+                android:text="Nossas redes:">
+            </TextView>
+            <ImageView
+                android:layout_marginTop="-260.5dp"
+                android:layout_marginLeft="250dp"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/Divider"/>
+
+            <ImageButton
+                style="@style/botaoTwitter"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <ImageButton
+                style="@style/botaoGoogle"
+                android:layout_marginTop="-61dp"
+                android:layout_marginLeft="170dp"
+                />
+
+            <ImageButton
+                style="@style/botaoFacebook"
+                android:layout_marginTop="-61dp"
+                android:layout_marginLeft="290dp"
+                />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="60dp"
+                android:src="@mipmap/Twitter"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="-09dp"
+                android:layout_marginLeft="180dp"
+                android:src="@mipmap/Google"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="12dp"
+                android:layout_marginTop="-12dp"
+                android:layout_marginLeft="300dp"
+                android:src="@mipmap/Facebook"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

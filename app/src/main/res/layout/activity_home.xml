@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroud"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="176dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="45dp"
+            android:layout_marginTop="180dp"
+            >
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/logo"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/MAÎTRE"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:text="Reserve sua experiência."
+                android:textColor="@color/begeClaro"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="65dp"
+                android:fontFamily="@font/QuicksandRegular"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="600dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                style="@style/botaoHomePage"
+                android:text="@string/botao_cadastrese"/>
+
+            <Button
+                style="@style/botaoHomePage"
+                android:text="@string/botao_login"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
