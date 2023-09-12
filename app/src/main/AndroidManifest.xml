@@ -28,6 +28,21 @@
             android:name=".CriacaoReserva1"
             android:exported="false" />
         <activity
+            android:name=".Categorias"
+            android:exported="false" />
+        <activity
+            android:name=".EstabelecimentosMaisVisitados"
+            android:exported="false" />
+        <activity
+            android:name=".ListaEstabelecimento"
+            android:exported="false" />
+        <activity
+            android:name=".AlterarPerfil"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

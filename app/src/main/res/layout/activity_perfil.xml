@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Perfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liz Smith"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/verdeEscuro"
+                android:layout_marginVertical="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    style="@style/Descricao"
+                    android:text="@string/Telefone"/>
+                <TextView
+                    style="@style/Descricao"
+                    android:text=" | "/>
+                <TextView
+                    style="@style/Descricao"
+                    android:text="@string/EmailUsuario"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey"
+            android:focusable="false"
+            android:layout_marginVertical="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/teste"
+                android:text="Reservas"
+                android:drawableLeft="@drawable/ic_favorite"
+                android:drawableRight="@drawable/ic_arrow_right"
+                style="@style/BotaoPerfil"/>
+            <Button
+                android:id="@+id/reservar_agora"
+                android:text="Reserve agora"
+                android:drawableLeft="@drawable/ic_calendar_check"
+                android:drawableRight="@drawable/ic_arrow_right"
+                style="@style/BotaoPerfil"/>
+            <Button
+                android:id="@+id/alterar_perfil"
+                android:text="Alterar perfil"
+                android:drawableLeft="@drawable/ic_pencil_edit"
+                android:drawableRight="@drawable/ic_arrow_right"
+                style="@style/BotaoPerfil"/>
+            <Button
+                android:id="@+id/chat"
+                android:text="Chat"
+                android:drawableLeft="@drawable/ic_info"
+                android:drawableRight="@drawable/ic_arrow_right"
+                style="@style/BotaoPerfil"/>
+            <Button
+                android:id="@+id/logout"
+                android:text="Logout"
+                android:drawableLeft="@drawable/ic_logout"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:textColor="@color/begeEscuro"
+                style="@style/BotaoPerfil"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
