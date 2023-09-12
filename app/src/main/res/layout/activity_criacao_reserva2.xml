@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CriacaoReserva2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintStart_toStartOf="parent">
+        <Button
+            style="@style/backButton"/>
+
+        <TextView
+            style="@style/reservaTitulo"
+            android:layout_marginBottom="0dp"
+            android:text="Selecione os lugares:"/>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:src="@mipmap/restaurante_top_down_foreground" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/reservaText"
+                android:text="Digite os números dos assentos: "
+                android:layout_width="200dp"/>
+            <EditText
+                style="@style/editTextReservas"
+                android:background="@drawable/rounded_edittext"
+                android:layout_marginTop="6dp"
+                android:layout_width="150dp"
+                android:paddingLeft="10dp"
+                android:hint="Ex: 12, 13"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                style="@style/reservaText"
+                android:text="Cadastro de pessoas: "
+                android:layout_width="200dp"/>
+            <EditText
+                style="@style/editTextReservas"
+                android:background="@drawable/rounded_edittext"
+                android:layout_width="150dp"
+                android:paddingLeft="10dp"
+                android:hint="Ex: Ana"/>
+        </LinearLayout>
+        <Button
+            style="@style/botaoReservaConfirmar"
+            android:text="Confirmar reserva"/>
+    </LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

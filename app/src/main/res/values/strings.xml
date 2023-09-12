@@ -39,7 +39,6 @@
     <string name="botao_cadastrese"> Cadastre-se
 
     </string>
-
     <string name="botao_login"> Login
 
     </string>
@@ -52,5 +51,6 @@
     <string name="placeholderEmail">usuario@email.com</string>
     <string name="placeholderSenha">••••••••••••••••••</string>
     <!--    _____________________________________________________-->
-
+    <string name="selecioneData">Selecione a Data &amp; Horário</string>
+    <string name="quantidadeReservas">Quantidade de reservas:</string>
 </resources>
