@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CriacaoReserva1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            style="@style/backButton"/>
+
+        <TextView
+            style="@style/reservaTitulo"
+            android:text="@string/selecioneData" />
+
+        <TextView
+            style="@style/reservaText"
+            android:text="Dia:" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                style="@style/botaoReservaDia"
+                android:text="Sáb
+                19" />
+
+            <Button
+                style="@style/botaoReservaDia"
+                android:text="Dom
+                20" />
+
+            <Button
+                style="@style/botaoReservaDia"
+                android:text="Seg
+                21" />
+
+            <Button
+                style="@style/botaoReservaDia"
+                android:text="Ter
+                22" />
+
+            <Button
+                style="@style/botaoReservaDia"
+                android:text="Qua
+                23" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/reservaText"
+            android:text="Horário: " />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="10:00 AM" />
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="10:30 AM" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="11:00 AM" />
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="11:30 AM" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="12:00 PM" />
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="12:30 PM" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="01:00 PM" />
+
+                <Button
+                    style="@style/botaoReservaHorario"
+                    android:text="01:30 PM" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/reservaText"
+            android:text="Quantidade de reservas:" />
+
+        <EditText
+            style="@style/editTextReservas"
+            android:background="@drawable/rounded_edittext" />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:backgroundTint="#6E5D54"
+            android:text="Avançar" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

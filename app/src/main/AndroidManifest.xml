@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MaitreApp"
         tools:targetApi="31">
         <activity
+            android:name=".CriacaoReserva2"
+            android:exported="false" />
+        <activity
+            android:name=".CriacaoReserva1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

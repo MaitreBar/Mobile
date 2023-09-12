@@ -20,4 +20,6 @@
         <!--       // adicionar aqui todos os textos que forem placeholders de inputs-->
     </string>
 
+    <string name="selecioneData">Selecione a Data &amp; Horário</string>
+    <string name="quantidadeReservas">Quantidade de reservas:</string>
 </resources>
