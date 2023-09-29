@@ -203,10 +203,9 @@
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/QuicksandMedium"
-                    android:paddingLeft="10dp"
-                    android:inputType="textPassword"
                     android:hint="@string/placeholderSenha"
-                    />
+                    android:inputType="textPassword"
+                    android:paddingLeft="10dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -225,8 +224,8 @@
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/QuicksandMedium"
-                    android:inputType="textPassword"
                     android:hint="@string/placeholderSenha"
+                    android:inputType="textPassword"
                     android:paddingLeft="10dp" />
 
 

@@ -41,6 +41,20 @@
     <string name="UmCifrao">$</string>
     <string name="DoisCifroes">$$</string>
     <string name="TresCifroes">$$$</string>
+    <string name="reservas">Reservas</string>
+    <string name="beerwings">Beerwings</string>
+    <string name="notaBar1">4.8</string>
+    <string name="assento">Assento(s):</string>
+    <string name="numAssento">1 e 2</string>
+    <string name="nome">Nome(s): </string>
+    <string name="nomesReserva">Anna Smith e Liz Smith</string>
+    <string name="dia">Dia: </string>
+    <string name="hora">Hora: </string>
+    <string name="dataReserva">22/10/23</string>
+    <string name="madureira">Madureira</string>
+    <string name="dataReserva1">30/08/23</string>
+    <string name="horaReserva">23h00</string>
+
     <!--    _____________________________________________________-->
 
     <string name="botoes">
