@@ -54,6 +54,11 @@
     <string name="madureira">Madureira</string>
     <string name="dataReserva1">30/08/23</string>
     <string name="horaReserva">23h00</string>
+    <string name="feedback">Feedback: </string>
+    <string name="textoFeedback1"> Nos conte sua experiência sobre a sua reserva:</string>
+    <string name="textoFeedback2"> Nos conte sua experiência sobre a sua reserva ...</string>
+    <string name="confirmarReserva"> Confirmar reserva</string>
+
 
     <!--    _____________________________________________________-->
 

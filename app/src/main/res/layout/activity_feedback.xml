@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <!--        Card verde escuro -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@color/verdeEscuro">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="65dp"
+            android:fontFamily="@font/OldStandardTTBold"
+            android:text="@string/feedback"
+            android:textColor="@color/branco"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <!--            Seta: voltar -->
+        <ImageButton
+            style="@style/botaoSeta"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="botão de voltar"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+<!--        Conteúdo de tela-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    >
+
+<!--        Texto da reserva -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+   android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/QuicksandSemiBold"
+                android:text="@string/textoFeedback1"
+                android:textSize="17sp"
+                android:textColor="@color/verdeEscuro"
+                android:layout_marginStart="5sp"
+                />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/assento"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+                   />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/numAssento"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandLight"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/Nome"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/nomesReserva"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandLight"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="50dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/dia"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/dataReserva"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandLight"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/hora"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20sp"
+                    android:text="@string/horaReserva"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/QuicksandLight"
+                    android:gravity="center"
+                    android:textColor="@color/verdeEscuro"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="260dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/grey"
+               >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/QuicksandRegular"
+                    android:text="@string/textoFeedback2"
+                    android:textColor="@color/preto"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+<!-- Botão de comentário   -->
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:textColor="@color/branco"
+        android:layout_gravity="center"
+        android:text="@string/confirmarReserva"
+        android:fontFamily="@font/QuicksandRegular"
+        android:textSize="18sp"
+        android:gravity="right"
+        android:backgroundTint="@color/verdeEscuro"
+        style="@style/botaoReserva"
+
+        />
+
+
+</LinearLayout>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
