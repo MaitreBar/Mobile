@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/branco"
-        tools:context=".MainActivity"
+        tools:context=".Login"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -75,6 +75,7 @@
             <EditText
                 style="@style/EmailInput"
                 android:layout_width="280dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginHorizontal="55dp"
                 android:background="@drawable/rounded_edittext"
@@ -95,6 +96,7 @@
             <EditText
                 style="@style/EmailInput"
                 android:layout_width="280dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginHorizontal="55dp"
                 android:background="@drawable/rounded_edittext"

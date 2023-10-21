@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/backgroud"
-        tools:context=".MainActivity"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="176dp">
 
@@ -31,6 +30,7 @@
                 android:layout_height="45dp"
                 android:src="@mipmap/maitre"/>
 
+
             <TextView
                 android:layout_width="300dp"
                 android:layout_height="45dp"
@@ -41,8 +41,6 @@
                 android:layout_marginLeft="65dp"
                 android:fontFamily="@font/quicksand_regular"
                 />
-
-
 
         </LinearLayout>
         <LinearLayout
@@ -55,14 +53,14 @@
 
             <Button
                 style="@style/botaoHomePage"
-                android:text="@string/botao_cadastrese"/>
+                android:text="@string/botao_cadastrese"
+                android:id="@+id/bt_cadastro"/>
 
             <Button
                 style="@style/botaoHomePage"
-                android:text="@string/botao_login"/>
+                android:text="@string/botao_login"
+                android:id="@+id/bt_login"/>
         </LinearLayout>
-
-
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
