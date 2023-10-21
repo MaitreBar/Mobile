@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="35dp"
-                android:fontFamily="@font/OldStandardTTBold"
+                android:fontFamily="@font/old_standard_tt_bold"
                 android:text="@string/CriarConta"
                 android:textColor="@color/branco"
                 android:textSize="33sp"></TextView>
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="-180dp"
                 android:layout_marginTop="80dp"
-                android:fontFamily="@font/QuicksandBold"
+                android:fontFamily="@font/quicksand_bold"
                 android:text="@string/NãoPossuiConta"
                 android:textColor="@color/branco"
                 android:textSize="14sp"></TextView>
@@ -45,7 +45,7 @@
                 android:layout_marginLeft="-25dp"
                 android:layout_marginTop="82dp"
                 android:clickable="true"
-                android:fontFamily="@font/QuicksandBold"
+                android:fontFamily="@font/quicksand_bold"
                 android:text="@string/Cadastrese"
                 android:textColor="@color/azulClaro"
                 android:textSize="14sp"></TextView>
@@ -71,7 +71,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="Nome Completo"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -82,7 +82,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="nome completo"
                     android:paddingLeft="10dp" />
 
@@ -91,7 +91,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="Data de Nascimento"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -102,7 +102,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="DD/MM/AAAA"
                     android:paddingLeft="10dp" />
 
@@ -111,7 +111,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="RG"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -122,7 +122,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="XX.XXX.XXX-X"
                     android:paddingLeft="10dp" />
 
@@ -131,7 +131,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="CPF"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -142,7 +142,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="XXX.XXX.XXX-XX"
                     android:paddingLeft="10dp" />
 
@@ -151,7 +151,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="Celular"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -162,7 +162,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="(XX) 9XXXX-XXXX"
                     android:paddingLeft="10dp" />
 
@@ -171,7 +171,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="Email"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -182,7 +182,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="Email"
                     android:paddingLeft="10dp" />
 
@@ -191,7 +191,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="Senha"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -202,7 +202,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="@string/placeholderSenha"
                     android:inputType="textPassword"
                     android:paddingLeft="10dp" />
@@ -212,7 +212,7 @@
                     android:layout_height="20dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:hint="Confirmar senha"
                     android:textColor="#1C1C28"
                     android:textSize="10sp"></TextView>
@@ -223,7 +223,7 @@
                     android:layout_marginHorizontal="20dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rounded_edittext"
-                    android:fontFamily="@font/QuicksandMedium"
+                    android:fontFamily="@font/quicksand_medium"
                     android:hint="@string/placeholderSenha"
                     android:inputType="textPassword"
                     android:paddingLeft="10dp" />
@@ -238,14 +238,14 @@
                     android:layout_width="120dp"
                     android:layout_height="45dp"
                     android:layout_marginLeft="20dp"
-                    android:src="@mipmap/Divider" />
+                    android:src="@mipmap/divider" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="150dp"
                     android:layout_marginTop="-33dp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:text="Nossas redes:"></TextView>
 
                 <ImageView
@@ -253,7 +253,7 @@
                     android:layout_height="45dp"
                     android:layout_marginLeft="250dp"
                     android:layout_marginTop="-30dp"
-                    android:src="@mipmap/Divider" />
+                    android:src="@mipmap/divider" />
 
                 <ImageButton
                     style="@style/botaoTwitter"
@@ -274,21 +274,21 @@
                     android:layout_width="40dp"
                     android:layout_height="10dp"
                     android:layout_marginLeft="60dp"
-                    android:src="@mipmap/Twitter" />
+                    android:src="@mipmap/twitter" />
 
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="10dp"
                     android:layout_marginLeft="180dp"
                     android:layout_marginTop="-09dp"
-                    android:src="@mipmap/Google" />
+                    android:src="@mipmap/google" />
 
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="12dp"
                     android:layout_marginLeft="300dp"
                     android:layout_marginTop="-12dp"
-                    android:src="@mipmap/Facebook" />
+                    android:src="@mipmap/facebook" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 

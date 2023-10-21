@@ -20,7 +20,7 @@
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:padding">15dp</item>
-        <item name="android:fontFamily">@font/QuicksandSemiBold</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
     </style>
 
     <style name="botaoEntar" parent="Widget.Material3.Button.OutlinedButton">
@@ -35,7 +35,7 @@
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:padding">15dp</item>
-        <item name="android:fontFamily">@font/QuicksandSemiBold</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
     </style>
     <style name="botaoCriar" parent="Widget.Material3.Button.OutlinedButton">
         <item name="cornerRadius">5dp</item>
@@ -49,7 +49,7 @@
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:padding">15dp</item>
-        <item name="android:fontFamily">@font/QuicksandSemiBold</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
     </style>
 
     <style name="botaoSeta" parent="Widget.Material3.Button.OutlinedButton">
@@ -63,11 +63,11 @@
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:padding">15dp</item>
-        <item name="android:fontFamily">@font/QuicksandSemiBold</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
         <item name="android:src">@mipmap/light</item>
     </style>
 
-    <style name="EmailInput" parent="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+    <style name="EmailInput" parent="@style/Widget.Material3.TextInputLayout.OutlinedBox"/>
       
     <style name="botaoReservaDia" parent="Widget.Material3.Button.OutlinedButton">
         <item name="cornerRadius">5dp</item>
@@ -130,8 +130,8 @@
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:padding">15dp</item>
-        <item name="android:fontFamily">@font/QuicksandSemiBold</item>
-        <item name="android:src">@mipmap/TwitterLogo</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:src">@mipmap/twitter_logo</item>
     </style>
       
     <style name="botaoGoogle" parent="Widget.Material3.Button.OutlinedButton">
@@ -145,8 +145,8 @@
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:padding">15dp</item>
-        <item name="android:fontFamily">@font/QuicksandSemiBold</item>
-        <item name="android:src">@mipmap/GoogleLogo</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:src">@mipmap/google_logo</item>
     </style>
       
     <style name="botaoFacebook" parent="Widget.Material3.Button.OutlinedButton">
@@ -160,8 +160,8 @@
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
         <item name="android:padding">15dp</item>
-        <item name="android:fontFamily">@font/QuicksandSemiBold</item>
-        <item name="android:src">@mipmap/FacebookLogo</item>
+        <item name="android:fontFamily">@font/quicksand_semibold</item>
+        <item name="android:src">@mipmap/facebook_logo</item>
     </style>
 
 
