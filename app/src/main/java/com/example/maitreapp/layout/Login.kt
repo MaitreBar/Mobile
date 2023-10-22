@@ -41,9 +41,8 @@ class Login : AppCompatActivity() {
                 response: Response<Optional<Usuario>>
             ) {
                 if(response.isSuccessful){
-                    val inicial = Intent(this@Login, Inicial::class.java)
-                    Log.i(TAG, "DEU CERTO")
                     Toast.makeText(baseContext, "deu certo", Toast.LENGTH_SHORT).show()
+                    val inicial = Intent(this@Login, Inicial::class.java)
                     startActivity(inicial)
                 }
             }
