@@ -67,7 +67,9 @@
     <string name="textoFeedback1"> Nos conte sua experiência sobre a sua reserva:</string>
     <string name="textoFeedback2"> Nos conte sua experiência sobre a sua reserva ...</string>
     <string name="confirmarReserva"> Confirmar reserva</string>
-
+    <string name="textoCancelar"> Selecione a opção desejada: </string>
+    <string name="feedbacks"> Feedback </string>
+    <string name="cancelarReserva"> Cancelar reserva</string>
 
     <!--    _____________________________________________________-->
 
