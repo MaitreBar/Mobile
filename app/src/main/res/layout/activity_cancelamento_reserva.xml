@@ -10,8 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#77403D3D"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
@@ -22,32 +21,31 @@
                         android:layout_width="match_parent"
                         android:layout_height="70dp"
                         android:text="@string/textoCancelar"
-                        android:fontFamily="@font/QuicksandRegular"
+                        android:fontFamily="@font/quicksand_regular"
                         android:textSize="20sp"
                         android:gravity="center"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="center"
-                        >
-                    <Button
-                        android:layout_width="150dp"
-                        android:layout_height="60dp"
-                        android:text="@string/feedbacks"
-                        android:textSize="20sp"
-                        android:textColor="@color/verdeEscuro"
-                        android:backgroundTint="@color/branco"                        />
+                        android:gravity="center">
 
-                    <Button
-                        android:layout_width="210dp"
-                        android:layout_height="60dp"
-                        android:layout_marginStart="19sp"
-                        android:text="@string/cancelarReserva"
-                        android:textSize="20sp"
-                        android:backgroundTint="@color/begeClaro"
-                        android:textColor="@color/branco"
-                            />
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="60dp"
+                            android:text="@string/feedbacks"
+                            android:textSize="20sp"
+                            android:textColor="@color/verdeEscuro"
+                            android:backgroundTint="@color/branco"/>
+
+                        <Button
+                            android:layout_width="210dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="19sp"
+                            android:text="@string/cancelarReserva"
+                            android:textSize="20sp"
+                            android:backgroundTint="@color/begeClaro"
+                            android:textColor="@color/branco"/>
 
                     </LinearLayout>
 
