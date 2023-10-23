@@ -2,11 +2,11 @@ package com.example.maitreapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.maitreapp.databinding.ActivityLoginBinding
+import com.example.maitreapp.databinding.ActivityListaEstabelecimentoBinding
 
-class Login : AppCompatActivity() {
+class ListaEstabelecimento : AppCompatActivity() {
     val binding by lazy {
-        ActivityLoginBinding.inflate(layoutInflater)
+        ActivityListaEstabelecimentoBinding.inflate(layoutInflater)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

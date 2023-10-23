@@ -1,7 +1,8 @@
-package com.example.maitreapp
+package com.example.maitreapp.layout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.maitreapp.R
 
 class TelefoneEstabelecimento : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

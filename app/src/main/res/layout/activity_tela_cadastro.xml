@@ -26,7 +26,7 @@
                 android:fontFamily="@font/old_standard_tt_bold"
                 android:text="@string/CriarConta"
                 android:textColor="@color/branco"
-                android:textSize="33sp"></TextView>
+                android:textSize="33sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -36,7 +36,7 @@
                 android:fontFamily="@font/quicksand_bold"
                 android:text="@string/NãoPossuiConta"
                 android:textColor="@color/branco"
-                android:textSize="14sp"></TextView>
+                android:textSize="14sp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:fontFamily="@font/quicksand_bold"
                 android:text="@string/Cadastrese"
                 android:textColor="@color/azulClaro"
-                android:textSize="14sp"></TextView>
+                android:textSize="14sp"/>
             <ImageButton
                 style="@style/botaoSeta"
                 android:layout_marginTop="70dp"
@@ -73,7 +73,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="Nome Completo"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -94,7 +94,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="Data de Nascimento"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -115,7 +115,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="RG"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -136,7 +136,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="CPF"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -157,7 +157,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="Celular"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -178,7 +178,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="Email"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -199,7 +199,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="Senha"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -221,7 +221,7 @@
                     android:fontFamily="@font/quicksand_semibold"
                     android:hint="Confirmar senha"
                     android:textColor="#1C1C28"
-                    android:textSize="10sp"></TextView>
+                    android:textSize="10sp"/>
 
                 <EditText
                     style="@style/EmailInput"
@@ -253,12 +253,12 @@
                     android:layout_marginLeft="150dp"
                     android:layout_marginTop="-33dp"
                     android:fontFamily="@font/quicksand_semibold"
-                    android:text="Nossas redes:"></TextView>
+                    android:text="Nossas redes:"/>
 
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="45dp"
-                    android:layout_marginLeft="250dp"
+                    android:layout_marginStart="250dp"
                     android:layout_marginTop="-30dp"
                     android:src="@mipmap/divider" />
 

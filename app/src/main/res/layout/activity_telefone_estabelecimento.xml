@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelefoneEstabelecimento">
+    tools:context=".layout.TelefoneEstabelecimento">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:text="@string/telefone"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:textSize="20sp"
                     android:layout_marginStart="20dp"
                   />
@@ -36,7 +36,6 @@
                     android:layout_width="20dp"
                     android:layout_height="30dp"
                     android:layout_marginStart="250dp"
-
                     android:clickable="true"
                     android:src="@mipmap/x"
                     android:focusable="true"
@@ -48,7 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="@string/numeroTelefone"
-                android:fontFamily="@font/QuicksandRegular"
+                android:fontFamily="@font/quicksand_regular"
                 android:textSize="15sp"
                 android:gravity="left"
                 android:layout_marginLeft="30dp"
