@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".cancelamento_reserva">
+    tools:context=".CancelamentoReserva">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,14 +18,30 @@
                 android:background="@color/branco"
                 android:layout_marginTop="550dp"
                 android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="70dp"
-                        android:text="@string/textoCancelar"
-                        android:fontFamily="@font/QuicksandRegular"
-                        android:textSize="20sp"
-                        android:gravity="center"/>
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/textoCancelar"
+                                android:fontFamily="@font/QuicksandSemiBold"
+                                android:textSize="20sp"
+                                android:gravity="left"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="15dp">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="55dp"
+                                android:layout_marginTop="15dp"
+                                android:clickable="true"
+                                android:src="@mipmap/x"
+                                android:focusable="true"
+                                />
+                    </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -37,7 +53,8 @@
                         android:text="@string/feedbacks"
                         android:textSize="20sp"
                         android:textColor="@color/verdeEscuro"
-                        android:backgroundTint="@color/branco"                        />
+                        android:backgroundTint="@color/branco"
+                        style="@style/botaoCriar"/>
 
                     <Button
                         android:layout_width="210dp"
@@ -47,6 +64,7 @@
                         android:textSize="20sp"
                         android:backgroundTint="@color/begeClaro"
                         android:textColor="@color/branco"
+                        style="@style/botaoEntar"
                             />
 
                     </LinearLayout>

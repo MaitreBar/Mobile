@@ -61,6 +61,11 @@
     <string name="textoCancelar"> Selecione a opção desejada: </string>
     <string name="feedbacks"> Feedback </string>
     <string name="cancelarReserva"> Cancelar reserva</string>
+    <string name="desejaConfirmar"> Deseja confirmar? </string>
+    <string name="textoConfirmação"> Após confirmar a  reserva, a mesma aparecerá na aba "reservas"</string>
+    <string name="sim"> Sim </string>
+    <string name="cancelar"> Cancelar </string>
+
 
     <!--    _____________________________________________________-->
 
