@@ -29,9 +29,8 @@
                 android:text="@string/desejaConfirmar"
                 android:fontFamily="@font/QuicksandSemiBold"
                 android:textSize="20sp"
-                android:gravity="left"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="15dp">
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"/>
 
                     <ImageView
                         android:layout_width="20dp"
@@ -41,7 +40,7 @@
                         android:clickable="true"
                         android:src="@mipmap/x"
                         android:focusable="true"
-                />
+                        tools:ignore="ContentDescription" />
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
