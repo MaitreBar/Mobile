@@ -1,4 +1,4 @@
-package com.example.maitreapp
+package com.example.maitreapp.utils
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

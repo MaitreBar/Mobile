@@ -14,19 +14,25 @@
         android:theme="@style/Theme.MaitreApp"
         tools:targetApi="31" >
         <activity
+            android:name=".AlterarPerfil"
+            android:exported="false" />
+        <activity
             android:name=".cancelamento_reserva"
             android:exported="false" />
         <activity
+            android:name=".Categorias"
+            android:exported="false" />
+        <activity
+            android:name=".CriacaoReserva1"
+            android:exported="false" />
+        <activity
+            android:name=".CriacaoReserva2"
+            android:exported="false" />
+        <activity
+            android:name=".EstabelecimentosMaisVisitados"
+            android:exported="false" />
+        <activity
             android:name=".Feedback"
-            android:exported="false" />
-        <activity
-            android:name=".Reservas"
-            android:exported="false" />
-        <activity
-            android:name=".TelaCadastro"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".Home"
@@ -38,25 +44,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CriacaoReserva2"
-            android:exported="false" />
-        <activity
-            android:name=".CriacaoReserva1"
-            android:exported="false" />
-        <activity
-            android:name=".Categorias"
-            android:exported="false" />
-        <activity
-            android:name=".EstabelecimentosMaisVisitados"
+            android:name=".Inicial"
             android:exported="false" />
         <activity
             android:name=".ListaEstabelecimento"
             android:exported="false" />
         <activity
-            android:name=".AlterarPerfil"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".Perfil"
+            android:exported="false" />
+        <activity
+            android:name=".Reservas"
+            android:exported="false" />
+        <activity
+            android:name=".TelaCadastro"
             android:exported="false" />
     </application>
 
