@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MaitreApp"
         tools:targetApi="31">
         <activity
+            android:name=".FilaEstabelecimento"
+            android:exported="false" />
+        <activity
+            android:name=".TelefoneEstabelecimento"
+            android:exported="false" />
+        <activity
             android:name=".ConfirmacaoReserva"
             android:exported="false" />
         <activity

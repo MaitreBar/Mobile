@@ -65,7 +65,10 @@
     <string name="textoConfirmação"> Após confirmar a  reserva, a mesma aparecerá na aba "reservas"</string>
     <string name="sim"> Sim </string>
     <string name="cancelar"> Cancelar </string>
-
+    <string name="fila"> Fila </string>
+    <string name="textoFila"> Sua posição é a ... </string>
+    <string name="telefone"> Telefone </string>
+    <string name="numeroTelefone">(11) 91234-5678 </string>
 
     <!--    _____________________________________________________-->
 
