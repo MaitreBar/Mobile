@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <application
         android:allowBackup="true"
@@ -11,18 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaitreApp"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
-            android:name=".FilaEstabelecimento"
-            android:exported="false" />
-        <activity
-            android:name=".TelefoneEstabelecimento"
-            android:exported="false" />
-        <activity
-            android:name=".ConfirmacaoReserva"
-            android:exported="false" />
-        <activity
-            android:name=".CancelamentoReserva"
+            android:name=".cancelamento_reserva"
             android:exported="false" />
         <activity
             android:name=".Feedback"
@@ -38,7 +29,13 @@
             android:exported="false" />
         <activity
             android:name=".Home"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".CriacaoReserva2"
             android:exported="false" />
@@ -60,15 +57,6 @@
         <activity
             android:name=".Perfil"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

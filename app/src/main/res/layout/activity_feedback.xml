@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="33dp"
             android:layout_marginTop="65dp"
-            android:fontFamily="@font/OldStandardTTBold"
+            android:fontFamily="@font/old_standard_tt_bold"
             android:text="@string/feedback"
             android:textColor="@color/branco"
             android:textSize="40sp">
@@ -57,7 +57,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/QuicksandSemiBold"
+                android:fontFamily="@font/quicksand_semibold"
                 android:text="@string/textoFeedback1"
                 android:textSize="17sp"
                 android:textColor="@color/verdeEscuro"
@@ -83,7 +83,7 @@
                     android:layout_height="20sp"
                     android:text="@string/assento"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
                    />
@@ -92,7 +92,7 @@
                     android:layout_height="20sp"
                     android:text="@string/numAssento"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
                     />
@@ -101,7 +101,7 @@
                     android:layout_height="20sp"
                     android:text="@string/Nome"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
 
@@ -111,7 +111,7 @@
                     android:layout_height="20sp"
                     android:text="@string/nomesReserva"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
                     />
@@ -129,7 +129,7 @@
                     android:layout_height="20sp"
                     android:text="@string/dia"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
                     />
@@ -138,7 +138,7 @@
                     android:layout_height="20sp"
                     android:text="@string/dataReserva"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
                     />
@@ -147,7 +147,7 @@
                     android:layout_height="20sp"
                     android:text="@string/hora"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandSemiBold"
+                    android:fontFamily="@font/quicksand_semibold"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
 
@@ -157,7 +157,7 @@
                     android:layout_height="20sp"
                     android:text="@string/horaReserva"
                     android:textSize="18sp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:gravity="center"
                     android:textColor="@color/verdeEscuro"
                     />
@@ -182,7 +182,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandRegular"
+                    android:fontFamily="@font/quicksand_regular"
                     android:text="@string/textoFeedback2"
                     android:textColor="@color/preto"
                     android:textSize="14sp" />
@@ -198,7 +198,7 @@
         android:textColor="@color/branco"
         android:layout_gravity="center"
         android:text="@string/confirmarReserva"
-        android:fontFamily="@font/QuicksandRegular"
+        android:fontFamily="@font/quicksand_regular"
         android:textSize="18sp"
         android:gravity="right"
         android:backgroundTint="@color/verdeEscuro"

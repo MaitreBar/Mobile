@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/branco"
-        tools:context=".MainActivity"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
@@ -25,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="33dp"
                 android:layout_marginTop="65dp"
-                android:fontFamily="@font/OldStandardTTBold"
+                android:fontFamily="@font/old_standard_tt_bold"
                 android:text="@string/reservas"
                 android:textColor="@color/branco"
                 android:textSize="40sp">
@@ -45,7 +44,7 @@
 <!--        Card de reserva-->
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -54,7 +53,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="left"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="180dp">
+            android:layout_marginTop="180dp"/>
 
             <LinearLayout
                 android:layout_width="160dp"
@@ -75,7 +74,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:gravity="left"
                     android:text="@string/beerwings"
                     android:textStyle="bold" />
@@ -88,7 +87,7 @@
 
                     <TextView
                         android:layout_marginStart="13dp"
-                        android:fontFamily="@font/QuicksandLight"
+                        android:fontFamily="@font/quicksand_light"
                         android:text="@string/TresCifroes"
                         android:layout_height="30dp"
                         android:layout_width="30dp"
@@ -103,7 +102,7 @@
 
                     <TextView
                         android:layout_marginStart="10dp"
-                        android:fontFamily="@font/QuicksandLight"
+                        android:fontFamily="@font/quicksand_light"
                         android:gravity="center_vertical"
                         android:text="@string/notaBar1"
                         android:layout_width="30dp"
@@ -123,14 +122,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/assento"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/numAssento"
                     android:textSize="15sp" />
 
@@ -138,14 +137,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/nome"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/nomesReserva"
                     android:textSize="15sp" />
 
@@ -153,14 +152,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/dia"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/dataReserva"
                     android:textSize="15sp" />
 
@@ -168,19 +167,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/hora"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/horaReserva"
                     android:textSize="15sp"/>
 
         </LinearLayout>
-    </androidx.cardview.widget.CardView>
+        </ScrollView>
 
         <androidx.cardview.widget.CardView
             android:layout_width="390dp"
@@ -202,7 +201,7 @@
                     android:layout_height="120dp"
                     android:layout_marginStart="10dp"
                     android:clickable="true"
-                    android:src="@mipmap/barMadureira"
+                    android:src="@mipmap/bar_madureira"
                     android:focusable="true"
                     android:contentDescription="Foto do bar"
                     tools:ignore="HardcodedText" />
@@ -212,7 +211,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="25dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:gravity="left"
                     android:text="@string/madureira"
                     android:textStyle="bold"
@@ -227,7 +226,7 @@
 
                     <TextView
                         android:layout_marginStart="13dp"
-                        android:fontFamily="@font/QuicksandLight"
+                        android:fontFamily="@font/quicksand_light"
                         android:text="@string/DoisCifroes"
                         android:layout_height="30dp"
                         android:layout_width="30dp"
@@ -242,7 +241,7 @@
 
                     <TextView
                         android:layout_marginStart="10dp"
-                        android:fontFamily="@font/QuicksandLight"
+                        android:fontFamily="@font/quicksand_light"
                         android:gravity="center_vertical"
                         android:text="@string/notaBar1"
                         android:layout_width="30dp"
@@ -262,14 +261,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="20dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/assento"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/numAssento"
                     android:textSize="15sp" />
 
@@ -277,14 +276,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/nome"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/nomesReserva"
                     android:textSize="15sp" />
 
@@ -292,14 +291,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/dia"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/dataReserva1"
                     android:textSize="15sp" />
 
@@ -307,14 +306,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/QuicksandBold"
+                    android:fontFamily="@font/quicksand_bold"
                     android:text="@string/hora"
                     android:textSize="18sp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="20dp"
-                    android:fontFamily="@font/QuicksandLight"
+                    android:fontFamily="@font/quicksand_light"
                     android:text="@string/horaReserva"
                     android:textSize="15sp"/>
 
