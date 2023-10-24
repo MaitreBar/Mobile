@@ -21,13 +21,13 @@
         Não possui conta?
     </string>
     <string name="Cadastrese">
-        <u>cadastre-se</u>
+        <u>Cadastre-se</u>
     </string>
     <string name="JaTemConta">
-        Ja tem uma conta?
+        Já tem uma conta?
     </string>
     <string name="EntrarPequeno">
-        <u>entrar</u>
+        <u>Entrar</u>
     </string>
     <!--    _____________________________________________________-->
 
@@ -73,6 +73,7 @@
     <string name="textoFila"> Sua posição é a ... </string>
     <string name="telefone"> Telefone </string>
     <string name="numeroTelefone">(11) 91234-5678 </string>
+    <string name="maitre">MAÎTRE</string>
     <!--    _____________________________________________________-->
 
     <string name="botoes">
@@ -94,7 +95,7 @@
 
 
     <string name="placeholderEmail">usuario@email.com</string>
-    <string name="placeholderSenha">••••••••••••••••••</string>
+    <string name="placeholderSenha">•••••••</string>
     <string name="Pesquisar">Pesquisar</string>
     <!--    _____________________________________________________-->
     <string name="selecioneData">Selecione a Data &amp; Horário</string>
