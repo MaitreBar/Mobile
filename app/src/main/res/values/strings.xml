@@ -41,8 +41,6 @@
     <string name="UmCifrao">$</string>
     <string name="DoisCifroes">$$</string>
     <string name="TresCifroes">$$$</string>
-<<<<<<< Updated upstream
-=======
     <string name="reservas">Reservas</string>
     <string name="beerwings">Beerwings</string>
     <string name="notaBar1">4.8</string>
@@ -61,8 +59,6 @@
     <string name="Lgpd_item">Confirma saber que nosso sistema está de acordo com a LGDP. </string>
     <string name="yes">Sim </string>
     <string name="no">Não </string>
-
-
     <string name="textoFeedback1"> Nos conte sua experiência sobre a sua reserva:</string>
     <string name="textoFeedback2"> Nos conte sua experiência sobre a sua reserva ...</string>
     <string name="confirmarReserva"> Confirmar reserva</string>
@@ -77,8 +73,6 @@
     <string name="textoFila"> Sua posição é a ... </string>
     <string name="telefone"> Telefone </string>
     <string name="numeroTelefone">(11) 91234-5678 </string>
-
->>>>>>> Stashed changes
     <!--    _____________________________________________________-->
 
     <string name="botoes">

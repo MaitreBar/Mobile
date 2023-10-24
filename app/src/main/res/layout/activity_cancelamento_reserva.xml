@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout.CancelamentoReserva">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#77403D3D"
+        android:orientation="vertical"
+        >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/branco"
+                android:layout_marginTop="550dp"
+                android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="@string/textoCancelar"
+                                android:fontFamily="@font/quicksand_semibold"
+                                android:textSize="20sp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="15dp"/>
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="55dp"
+                                android:layout_marginTop="15dp"
+                                android:clickable="true"
+                                android:src="@mipmap/x"
+                                android:focusable="true"
+                                android:importantForAccessibility="no" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        >
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="60dp"
+                        android:text="@string/feedbacks"
+                        android:textSize="20sp"
+                        android:textColor="@color/verdeEscuro"
+                        android:backgroundTint="@color/branco"
+                        style="@style/botaoCriar"/>
+
+                    <Button
+                        android:layout_width="210dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="19sp"
+                        android:text="@string/cancelarReserva"
+                        android:textSize="20sp"
+                        android:backgroundTint="@color/begeClaro"
+                        android:textColor="@color/branco"
+                        style="@style/botaoEntar"
+                            />
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

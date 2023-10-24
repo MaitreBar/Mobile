@@ -10,34 +10,35 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/branco"
-        tools:context=".MainActivity"
+        tools:context=".Login"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="165dp"
-            android:background="@color/begeClaro">
+            android:background="@color/begeClaro"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="35dp"
-                android:fontFamily="@font/OldStandardTTBold"
+                android:fontFamily="@font/old_standard_tt_bold"
                 android:text="@string/Entrar"
                 android:textColor="@color/branco"
-                android:textSize="33sp"></TextView>
+                android:textSize="33sp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="-100dp"
                 android:layout_marginTop="80dp"
-                android:fontFamily="@font/QuicksandBold"
+                android:fontFamily="@font/quicksand_bold"
                 android:text="@string/NãoPossuiConta"
                 android:textColor="@color/branco"
-                android:textSize="14sp"></TextView>
+                android:textSize="14sp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -45,10 +46,10 @@
                 android:layout_marginLeft="-25dp"
                 android:layout_marginTop="82dp"
                 android:clickable="true"
-                android:fontFamily="@font/QuicksandBold"
+                android:fontFamily="@font/quicksand_bold"
                 android:text="@string/Cadastrese"
                 android:textColor="@color/marrom"
-                android:textSize="14sp"></TextView>
+                android:textSize="14sp"/>
             <ImageButton
                 style="@style/botaoSeta"
                 android:layout_marginTop="70dp"
@@ -67,19 +68,20 @@
                  android:layout_height="20dp"
                  android:hint="Email"
                  android:textSize="10sp"
-                 android:fontFamily="@font/QuicksandSemiBold"
+                 android:fontFamily="@font/quicksand_semibold"
                  android:textColor="#1C1C28"
                  android:layout_marginTop="80dp"
-                 >
-             </TextView>
+                 />
             <EditText
                 style="@style/EmailInput"
+                android:id="@+id/et_email"
                 android:layout_width="280dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginHorizontal="55dp"
                 android:background="@drawable/rounded_edittext"
                 android:hint="@string/placeholderEmail"
-                android:fontFamily="@font/QuicksandMedium"
+                android:fontFamily="@font/quicksand_semibold"
                 android:paddingLeft="10dp" />
             <TextView
                 android:layout_marginLeft="60dp"
@@ -87,14 +89,15 @@
                 android:layout_height="20dp"
                 android:hint="Senha"
                 android:textSize="10sp"
-                android:fontFamily="@font/QuicksandSemiBold"
+                android:fontFamily="@font/quicksand_semibold"
                 android:textColor="#1C1C28"
-                >
-            </TextView>
+                />
 
             <EditText
                 style="@style/EmailInput"
+                android:id="@+id/et_senha"
                 android:layout_width="280dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginHorizontal="55dp"
                 android:background="@drawable/rounded_edittext"
@@ -106,26 +109,26 @@
                 style="@style/botaoEntar"
                 android:text="Entrar"
                 android:layout_marginTop="30dp"
+                android:id="@+id/bt_logar"
                 />
             <ImageView
                 android:layout_marginLeft="20dp"
                 android:layout_width="120dp"
                 android:layout_height="45dp"
-                android:src="@mipmap/Divider"/>
+                android:src="@mipmap/divider"/>
             <TextView
                 android:layout_marginTop="-35dp"
                 android:layout_marginLeft="150dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:fontFamily="@font/QuicksandSemiBold"
-                android:text="Nossas redes:">
-            </TextView>
+                android:fontFamily="@font/quicksand_semibold"
+                android:text="Nossas redes:"/>
             <ImageView
                 android:layout_marginTop="-260.5dp"
                 android:layout_marginLeft="250dp"
                 android:layout_width="120dp"
                 android:layout_height="45dp"
-                android:src="@mipmap/Divider"/>
+                android:src="@mipmap/divider"/>
 
             <ImageButton
                 style="@style/botaoTwitter"
@@ -149,21 +152,21 @@
                 android:layout_width="40dp"
                 android:layout_height="10dp"
                 android:layout_marginLeft="60dp"
-                android:src="@mipmap/Twitter"/>
+                android:src="@mipmap/twitter"/>
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="10dp"
                 android:layout_marginTop="-09dp"
                 android:layout_marginLeft="180dp"
-                android:src="@mipmap/Google"/>
+                android:src="@mipmap/google"/>
 
             <ImageView
                 android:layout_width="40dp"
                 android:layout_height="12dp"
                 android:layout_marginTop="-12dp"
                 android:layout_marginLeft="300dp"
-                android:src="@mipmap/Facebook"/>
+                android:src="@mipmap/facebook"/>
         </LinearLayout>
 
 
