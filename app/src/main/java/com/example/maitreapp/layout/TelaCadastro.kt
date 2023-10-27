@@ -15,6 +15,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.time.LocalDate
+import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 class TelaCadastro : AppCompatActivity() {
@@ -28,7 +29,6 @@ class TelaCadastro : AppCompatActivity() {
 
         binding.btCadastrar.setOnClickListener {
             val usuarioNovo = Usuario(
-                null,
                 binding.etCadastroNome.text.toString(),
                 binding.etCadastroEmail.text.toString(),
                 binding.etCadastroCpf.text.toString(),
@@ -38,7 +38,8 @@ class TelaCadastro : AppCompatActivity() {
                 binding.etCadastroSenha.text.toString()
             )
 
-            cadastrar(usuarioNovo)
+            binding.testejson.setText("$usuarioNovo")
+//            cadastrar(usuarioNovo)
         }
     }
 

@@ -96,6 +96,7 @@
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="Exemplo: João Dias da Silva"
+                    android:inputType="textPersonName"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -117,7 +118,7 @@
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="DD/MM/AAAA"
-                    android:inputType="date"
+                    android:inputType="number"
                     app:mask="##/##/####"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
@@ -161,6 +162,7 @@
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="XXX.XXX.XXX-XX"
                     app:mask="###.###.###-##"
+                    android:inputType="number"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -181,6 +183,7 @@
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="(XX) 9XXXX-XXXX"
+                    android:inputType="number"
                     app:mask="(##) 9####-####"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
@@ -253,6 +256,11 @@
                     android:id="@+id/bt_cadastrar"
                     android:text="Finalizar cadastro"
                     android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/testejson"/>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
