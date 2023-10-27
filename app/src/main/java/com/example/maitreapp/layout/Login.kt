@@ -42,8 +42,8 @@ class Login : AppCompatActivity() {
             ) {
                 if(response.isSuccessful){
                     Toast.makeText(baseContext, "deu certo", Toast.LENGTH_SHORT).show()
-                    val inicial = Intent(this@Login, Inicial::class.java)
-                    startActivity(inicial)
+                    val intent = Intent(this@Login, Inicial::class.java)
+                    startActivity(intent)
                 }
             }
 
