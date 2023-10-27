@@ -7,7 +7,7 @@ data class Usuario(
     val nome: String,
     val email: String,
     val cpf: String,
-    val dtNasc: LocalDate,
+    val dtNasc: String,
     val celular: String,
     val rg: String,
     val senha: String

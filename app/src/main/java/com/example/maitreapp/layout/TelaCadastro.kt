@@ -32,14 +32,13 @@ class TelaCadastro : AppCompatActivity() {
                 binding.etCadastroNome.text.toString(),
                 binding.etCadastroEmail.text.toString(),
                 binding.etCadastroCpf.text.toString(),
-                LocalDate.parse(binding.etCadastroDtNasc.text.toString(), DateTimeFormatter.ofPattern("dd/MM/yyyy")),
+                LocalDate.parse(binding.etCadastroDtNasc.text.toString(), DateTimeFormatter.ofPattern("dd/MM/yyyy")).toString(),
                 binding.etCadastroCelular.text.toString(),
                 binding.etCadastroRg.text.toString(),
                 binding.etCadastroSenha.text.toString()
             )
 
-            binding.testejson.setText("$usuarioNovo")
-//            cadastrar(usuarioNovo)
+            cadastrar(usuarioNovo)
         }
     }
 
