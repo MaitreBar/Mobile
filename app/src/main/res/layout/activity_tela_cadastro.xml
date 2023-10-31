@@ -89,12 +89,14 @@
 
                 <EditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_nome"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
-                    android:hint="nome completo"
+                    android:hint="Exemplo: João Dias da Silva"
+                    android:inputType="textPersonName"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -107,14 +109,17 @@
                     android:textColor="#1C1C28"
                     android:textSize="18sp"/>
 
-                <EditText
+                <com.vicmikhailau.maskededittext.MaskedEditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_dtNasc"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="DD/MM/AAAA"
+                    android:inputType="number"
+                    app:mask="##/##/####"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -126,14 +131,16 @@
                     android:textColor="#1C1C28"
                     android:textSize="18sp"/>
 
-                <EditText
+                <com.vicmikhailau.maskededittext.MaskedEditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_rg"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="XX.XXX.XXX-X"
+                    app:mask="##.###.###-A"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -145,14 +152,17 @@
                     android:textColor="#1C1C28"
                     android:textSize="18sp"/>
 
-                <EditText
+                <com.vicmikhailau.maskededittext.MaskedEditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_cpf"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="XXX.XXX.XXX-XX"
+                    app:mask="###.###.###-##"
+                    android:inputType="number"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -164,14 +174,17 @@
                     android:textColor="#1C1C28"
                     android:textSize="18sp"/>
 
-                <EditText
+                <com.vicmikhailau.maskededittext.MaskedEditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_celular"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
                     android:hint="(XX) 9XXXX-XXXX"
+                    android:inputType="number"
+                    app:mask="(##) 9####-####"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -185,12 +198,13 @@
 
                 <EditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_email"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
                     android:background="@drawable/rounded_edittext"
                     android:fontFamily="@font/quicksand_medium"
-                    android:hint="Email"
+                    android:hint="exemplo@email.com"
                     android:paddingLeft="10dp"
                     android:textSize="12sp"/>
 
@@ -204,6 +218,7 @@
 
                 <EditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_senha"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
@@ -224,6 +239,7 @@
 
                 <EditText
                     style="@style/EmailInput"
+                    android:id="@+id/et_cadastro_confirmar_senha"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
                     android:layout_marginVertical="20dp"
@@ -237,8 +253,14 @@
 
                 <Button
                     style="@style/botaoCriar"
-                    android:text="Criar"
+                    android:id="@+id/bt_cadastrar"
+                    android:text="Finalizar cadastro"
                     android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/testejson"/>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
 
