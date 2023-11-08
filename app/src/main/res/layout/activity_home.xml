@@ -1,66 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home">
+    tools:context=".Home"
+    android:background="@drawable/backgroud">
 
-    <RelativeLayout
+
+    <ImageView
+        android:id="@+id/iv_logo_home"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/logo_verde_agua"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_nome_home"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/backgroud"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="176dp">
+        android:layout_height="wrap_content"
+        android:text="@string/maitre"
+        android:textColor="@color/begeClaro"
+        android:fontFamily="@font/old_standard_tt_regular"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_below="@id/iv_logo_home"
+        android:layout_marginTop="10dp"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginHorizontal="45dp"
-            android:layout_marginTop="180dp"
-            >
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="200dp"
-                android:src="@mipmap/logo"/>
+    <TextView
+        android:id="@+id/tv_txt_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reserve sua experiência."
+        android:textColor="@color/begeClaro"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:fontFamily="@font/quicksand_regular"
+        android:layout_below="@+id/tv_nome_home"/>
 
-            <ImageView
-                android:layout_width="300dp"
-                android:layout_height="45dp"
-                android:src="@mipmap/maitre"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_txt_home"
+        android:layout_marginTop="90dp"
+        android:layout_centerInParent="true">
 
-
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="45dp"
-                android:text="Reserve sua experiência."
-                android:textColor="@color/begeClaro"
-                android:textSize="15sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="65dp"
-                android:fontFamily="@font/quicksand_regular"
-                />
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="600dp"
-            android:orientation="horizontal"
-            tools:ignore="UselessParent">
-
-            <Button
-                style="@style/botaoHomePage"
-                android:text="@string/botao_cadastrese"
-                android:id="@+id/bt_cadastro"/>
-
-            <Button
-                style="@style/botaoHomePage"
-                android:text="@string/botao_login"
-                android:id="@+id/bt_login"/>
-        </LinearLayout>
-    </RelativeLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            style="@style/botaoHomePage"
+            android:text="@string/botao_cadastrese"
+            android:id="@+id/bt_cadastro"/>
+        <Button
+            style="@style/botaoHomePage"
+            android:text="@string/botao_login"
+            android:id="@+id/bt_login"/>
+    </LinearLayout>
+</RelativeLayout>
