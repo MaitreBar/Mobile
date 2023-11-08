@@ -11,15 +11,12 @@
     <style name="botaoHomePage" parent="Widget.Material3.Button.OutlinedButton">
         <item name="cornerRadius">5dp</item>
         <item name="cornerSize">1dp</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:layout_width">160dp</item>
         <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginHorizontal">10dp</item>
         <item name="android:textColor">@color/azulClaro</item>
         <item name="android:backgroundTint">@color/verdeEscuro</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:minHeight">0dp</item>
-        <item name="android:minWidth">0dp</item>
-        <item name="android:padding">15dp</item>
         <item name="android:fontFamily">@font/quicksand_semibold</item>
     </style>
     <style name="botaoLgpd" parent="Widget.Material3.Button.OutlinedButton">
@@ -39,43 +36,29 @@
         <item name="cornerRadius">5dp</item>
         <item name="cornerSize">1dp</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:layout_width">350dp</item>
-        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
         <item name="android:textColor">@color/branco</item>
         <item name="android:backgroundTint">@color/begeClaro</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:minHeight">0dp</item>
-        <item name="android:minWidth">0dp</item>
-        <item name="android:padding">15dp</item>
         <item name="android:fontFamily">@font/quicksand_semibold</item>
     </style>
     <style name="botaoCriar" parent="Widget.Material3.Button.OutlinedButton">
         <item name="cornerRadius">5dp</item>
         <item name="cornerSize">1dp</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:layout_width">350dp</item>
-        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
         <item name="android:textColor">@color/branco</item>
         <item name="android:backgroundTint">@color/verdeEscuro</item>
-        <item name="android:minHeight">0dp</item>
-        <item name="android:minWidth">0dp</item>
-        <item name="android:padding">15dp</item>
         <item name="android:fontFamily">@font/quicksand_semibold</item>
     </style>
 
     <style name="botaoSeta" parent="Widget.Material3.Button.OutlinedButton">
-        <item name="cornerRadius">5dp</item>
-        <item name="cornerSize">1dp</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:layout_width">90dp</item>
-        <item name="android:layout_height">90dp</item>
-        <item name="android:textColor">@color/branco</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:minHeight">0dp</item>
-        <item name="android:minWidth">0dp</item>
-        <item name="android:padding">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:fontFamily">@font/quicksand_semibold</item>
-        <item name="android:src">@mipmap/light</item>
+        <item name="android:src">@drawable/seta_esquerda</item>
     </style>
 
     <style name="EmailInput" parent="@style/Widget.Material3.TextInputLayout.OutlinedBox"/>
@@ -273,9 +256,6 @@
         <item name="android:paddingLeft">180dp</item>
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
-    </style>
-
-
     </style>
 
 </resources>
