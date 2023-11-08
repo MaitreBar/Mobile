@@ -49,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="390dp"
                     android:layout_height="210dp"
@@ -323,6 +324,4 @@
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
         </RelativeLayout>
-    </ScrollView>

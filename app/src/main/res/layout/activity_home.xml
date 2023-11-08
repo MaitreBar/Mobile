@@ -12,8 +12,8 @@
         android:id="@+id/iv_logo_home"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@mipmap/logo_verde_agua"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:src="@mipmap/logo_verde_agua" />
 
     <TextView
         android:id="@+id/tv_nome_home"
